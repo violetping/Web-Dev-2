@@ -135,9 +135,8 @@
         <div class="card events-card">
             <h3>Your Events</h3>
             <div class="actions">
-                <button>All</button>
-                <button>Upcoming</button>
-                <button>Past</button>
+                <button>Clear all Events</button>
+                <button>Add Sample Event</button>
             </div>
             <div id="eventsList">
                 <div class="event">
@@ -163,7 +162,7 @@
     </div>
 
     <script>
-        // Simple JS to handle form submission (optional)
+ 
         document.getElementById('eventForm').addEventListener('submit', function(e) {
             e.preventDefault();
             const name = document.getElementById('eventName').value;
